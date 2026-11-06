@@ -1,10 +1,10 @@
 # 🟡 Level 2: Intermediate · Machine Learning
 
-[⬅ Previous: Data Analysis](../02-data-analysis/README.md) · [Back to overview](../README.md) · [Next: Deep Learning ➡](../04-deep-learning/README.md)
+[⬅ Previous: Beginner](../01-beginner/README.md) · [Back to overview](../README.md) · [Next: Deep Learning ➡](../04-deep-learning/README.md)
 
 **Goal:** understand how models learn, build reliable evaluation workflows, compare models appropriately, and serve a model through an API.
 **Duration:** 8 weeks at ~10 hrs/week.
-**Prerequisites:** [Beginner](../01-beginner/README.md) + *Python for Data Analysis* and *SQL* from [Data Analysis](../02-data-analysis/README.md).
+**Prerequisites:** [Level 1: Beginner](../01-beginner/README.md), including the Python data packages. *SQL* from the [Data Analysis track](../02-data-analysis/README.md#2-tool-learning-sessions) is recommended.
 
 ### 📅 Weekly Plan
 
@@ -30,7 +30,7 @@ The playlist is **not in learning order** and repeats some Level 1 material, so 
 | ⏭️ Skip these | Why |
 |:--|:--|
 | [#6 · Statistics part 1](https://www.youtube.com/watch?v=KUndrc_HYvs&list=PLPBnj6azlABapMXzdpFXBScfZerZygcrz&index=6), [#7 · Statistics part 2](https://www.youtube.com/watch?v=Kqw7HImV4FQ&list=PLPBnj6azlABapMXzdpFXBScfZerZygcrz&index=7), [#8 · Statistics part 3](https://www.youtube.com/watch?v=mentN23x7Qg&list=PLPBnj6azlABapMXzdpFXBScfZerZygcrz&index=8) | Already covered in [Beginner](../01-beginner/README.md). *(#8 is useful later as a refresher on vectors and cosine similarity.)* |
-| #10 → #17 (Python, OOP, NumPy, Matplotlib, Pandas) | Already covered in [Beginner](../01-beginner/README.md) and [Data Analysis](../02-data-analysis/README.md) |
+| #10 → #17 (Python, OOP, NumPy, Matplotlib, Pandas) | Already covered in [Beginner](../01-beginner/README.md) |
 | [#51 · Student Attrition project](https://www.youtube.com/watch?v=9YL-92beTYo&list=PLPBnj6azlABapMXzdpFXBScfZerZygcrz&index=51) | Duplicate of #57 |
 
 ------------------------------------------------------------------------
@@ -181,4 +181,4 @@ A model inside a notebook helps nobody. This closing topic teaches you to put a 
 
 An end-to-end ML project: **EDA → preprocessing `Pipeline` → model comparison against a baseline → error analysis**. Track the experiments with **MLflow** and serve the best model through a **FastAPI** `/predict` endpoint running in **Docker**. Include a clear README with setup steps, results, and limitations.
 
-[⬅ Previous: Data Analysis](../02-data-analysis/README.md) · [Back to overview](../README.md) · [Next: Deep Learning ➡](../04-deep-learning/README.md)
+[⬅ Previous: Beginner](../01-beginner/README.md) · [Back to overview](../README.md) · [Next: Deep Learning ➡](../04-deep-learning/README.md)
